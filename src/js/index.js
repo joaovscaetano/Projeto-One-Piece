@@ -8,8 +8,6 @@ botoes.forEach((botao, indice) => {
 
         botao.classList.add("selecionado");
         personagens[indice].classList.add("selecionado");
-
-        botao.style.transitionDuration = ".5s";
     });
 });
 

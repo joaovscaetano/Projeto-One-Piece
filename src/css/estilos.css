@@ -16,6 +16,16 @@ main::after {
 main .personagem {
     display: none;
     height: 100vh;
+    animation: transicao .5s;
+}
+
+@keyframes transicao {
+    from {
+        transform: translateY(40px);
+    }
+    to {
+        transform: translateY(0px);
+    }
 }
 
 main .personagem.selecionado {
